@@ -1,0 +1,19 @@
+{
+  "name": "html-set-source-attribute",
+  "version": "1.0.0",
+  "description": "Add 'source' attribute to html nodes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hhru/html-set-source-attribute.git"
+  },
+  "author": "Evgeny Kovalyov <kovalyov.eugene@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hhru/html-set-source-attribute/issues"
+  },
+  "homepage": "https://github.com/hhru/html-set-source-attribute#readme"
+}
