@@ -7,7 +7,6 @@
     "type": "git",
     "url": "git+https://github.com/hhru/html-set-source-attribute.git"
   },
-  "author": "Evgeny Kovalyov <kovalyov.eugene@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/hhru/html-set-source-attribute/issues"
