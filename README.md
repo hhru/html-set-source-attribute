@@ -1,13 +1,15 @@
 ## html-set-source-attribute
 
-Добавляет атрибут source в html-теги источника. Источником могут быть файлы xsl-шаблонов, шаблоны mustache, или, например, обычный html. Модуль возвращает преобразованное содержимое файла с добавленным в html-теги атрибутом source, содержащим путь к файлу-источнику и номер строки, в которой прописан текущий тег.
+Add `source` attribute to HTML tags from source file. Source can be file of XSL template, Mustache template or raw HTML. This module returns modified content of file with `source` attribute added to HTML tags containing path to source file and line number of source tag. 
 
-### Установка
+
+### Install
 
 ```javascript
     npm install --save-dev html-set-source-attribute
 ```
-### Пример использования
+
+### Usage
 
 ```javascript
 var fs = require('fs');
@@ -24,7 +26,8 @@ fs.readFile(templatePath, 'utf8', function (err, data) {
   console.log(content);
 });
 ```
-Содержимое исходного файла template.mustache:
+
+Source `template.mustache`:
 
 ```html
 	<li class="Gallery-Image gallery-item"
@@ -42,7 +45,7 @@ fs.readFile(templatePath, 'utf8', function (err, data) {
 	</li>
 ```
 
-Результат после преобразования:
+Modified output:
 
 ```html
 	<li source="templates/template.mustache:1" class="Gallery-Image gallery-item"
