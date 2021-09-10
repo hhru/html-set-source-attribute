@@ -11,5 +11,8 @@
   "bugs": {
     "url": "https://github.com/hhru/html-set-source-attribute/issues"
   },
-  "homepage": "https://github.com/hhru/html-set-source-attribute#readme"
+  "homepage": "https://github.com/hhru/html-set-source-attribute#readme",
+  "scripts": {
+    "release": "npm publish --access=public"
+  }
 }
