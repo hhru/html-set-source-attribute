@@ -18,7 +18,7 @@ module.exports = function(fileContent, path) {
     var lines = content.split('\n');
     content = lines.map(function(line, lineNumber) {
 
-        return line.replace(/<(?!xsl:|func:)[a-z0-9_:]+(?=\s|\/|>)/ig, function(match) {
+        return line.replace(/<(?!xsl:|func:)[a-z0-9_\-:]+(?=\s|\/|>)/ig, function(match) {
             // +1 потому что в массиве нумерация с нуля, а в редакторе - с единицы
             return match + ' source="' + path + ':' + (lineNumber + 1) + '"';
         });
