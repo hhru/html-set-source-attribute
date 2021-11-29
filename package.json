@@ -1,6 +1,6 @@
 {
   "name": "html-set-source-attribute",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Add 'source' attribute to html nodes",
   "main": "index.js",
   "repository": {
