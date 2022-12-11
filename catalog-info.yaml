@@ -1,0 +1,13 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: html-set-source-attribute
+  annotations:
+    github.com/project-slug: hhru/html-set-source-attribute
+  tags:
+    - backend
+    - js
+spec:
+  type: library
+  lifecycle: production
